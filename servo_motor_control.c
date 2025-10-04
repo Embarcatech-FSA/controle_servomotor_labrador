@@ -6,8 +6,8 @@
 // Define as macros para os diretórios pwm_chip e pwm0
 #define PWM_CHIP "/sys/class/pwm/pwmchip0"
 #define PWM0 PWM_CHIP "/pwm0"
-#define GPIO_LED1 "/sys/class/gpio/gpio20"
-#define GPIO_LED2 "/sys/class/gpio/gpio21"
+#define GPIO_LED1 "/sys/class/gpio/gpio131" // HEADER 3 da Labrador GPIOE3 (128 + 3)
+#define GPIO_LED2 "/sys/class/gpio/gpio130" // HEADER 5 da Labrador GPIOE2 (128 + 2)
 
 // Função que recebe um caminho de arquivo (path) e um valor em string - abre o arquivo no modo escrita.
 void writeToFile(const char *path, const char *value){
