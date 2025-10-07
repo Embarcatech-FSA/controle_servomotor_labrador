@@ -4,7 +4,7 @@ Este projeto controla um servomotor usando PWM na SBC Labrador e acende dois LED
 
 ## Configuração dos pinos
 
-- **PWM:** O PWM está configurado para o canal `pwmchip0/pwm0`, que corresponde ao pino GPIO 40 (GPIO E8) na Labrador.
+- **PWM:** O PWM está configurado para o canal `pwmchip0/pwm0`, que corresponde ao pino GPIO 40 (GPIO B8) na Labrador.
 - **LED 1:** Configurado no GPIO 131.
 - **LED 2:** Configurado no GPIO 130.
 
